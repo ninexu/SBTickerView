@@ -158,7 +158,11 @@
     [self setBottomFaceLayer:[[SBGradientOverlayLayer alloc] initWithStyle:SBGradientOverlayLayerTypeFace
                                                                    segment:SBGradientOverlayLayerSegmentBottom]];
     
-    [_bottomFaceLayer setFrame:CGRectMake(0., floorf(_flipLayer.frame.size.height / 2), _flipLayer.frame.size.width, floorf(_flipLayer.frame.size.height/2))];
+    if (direction == SBTickerViewTickDirectionDown) {
+        [_bottomFaceLayer setFrame:CGRectMake(0., floorf(_flipLayer.frame.size.height / 2)+0.5, _flipLayer.frame.size.width, floorf(_flipLayer.frame.size.height/2)-0.5)];
+    }
+    else
+        [_bottomFaceLayer setFrame:CGRectMake(0., floorf(_flipLayer.frame.size.height / 2), _flipLayer.frame.size.width, floorf(_flipLayer.frame.size.height/2))];
     
     // Tick layer
     [self setTickLayer:[[SBDoubleSidedLayer alloc] init]];
