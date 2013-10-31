@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4E8A84631822A8E700100088 /* UIImage+Ext.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E8A84621822A8E700100088 /* UIImage+Ext.m */; };
 		F44EB51E1494EEE800CC57C0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F44EB51D1494EEE800CC57C0 /* UIKit.framework */; };
 		F44EB5201494EEE800CC57C0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F44EB51F1494EEE800CC57C0 /* Foundation.framework */; };
 		F44EB5221494EEE800CC57C0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F44EB5211494EEE800CC57C0 /* CoreGraphics.framework */; };
@@ -28,6 +29,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4E8A84611822A8E700100088 /* UIImage+Ext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Ext.h"; sourceTree = "<group>"; };
+		4E8A84621822A8E700100088 /* UIImage+Ext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Ext.m"; sourceTree = "<group>"; };
 		F44EB5191494EEE800CC57C0 /* SBTickerViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SBTickerViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F44EB51D1494EEE800CC57C0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		F44EB51F1494EEE800CC57C0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -143,6 +146,8 @@
 				F44EB5411494EF1E00CC57C0 /* SBDoubleSidedLayer.m */,
 				F44EB5421494EF1E00CC57C0 /* SBGradientOverlayLayer.h */,
 				F44EB5431494EF1E00CC57C0 /* SBGradientOverlayLayer.m */,
+				4E8A84611822A8E700100088 /* UIImage+Ext.h */,
+				4E8A84621822A8E700100088 /* UIImage+Ext.m */,
 			);
 			name = SBTickerView;
 			sourceTree = "<group>";
@@ -214,6 +219,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E8A84631822A8E700100088 /* UIImage+Ext.m in Sources */,
 				F44EB52A1494EEE800CC57C0 /* main.m in Sources */,
 				F44EB52E1494EEE800CC57C0 /* SBAppDelegate.m in Sources */,
 				F44EB54B1494EF1E00CC57C0 /* UIView+SBExtras.m in Sources */,

@@ -5,34 +5,34 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>BE60EA27-A6F6-4879-A8E0-C354EED20E61</string>
+	<string>A68E3D96-A318-4424-977A-1613E5876D74</string>
 	<key>IDESourceControlProjectName</key>
 	<string>SBTickerViewDemo</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>39F67C8C-5F9A-4161-BF6F-8193763BED16</key>
-		<string>https://github.com/blommegard/SBTickerView.git</string>
+		<key>7B814774-1E58-4E9E-A504-59292C074BB6</key>
+		<string>https://github.com/ninexu/SBTickerView.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>SBTickerViewDemo.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>39F67C8C-5F9A-4161-BF6F-8193763BED16</key>
+		<key>7B814774-1E58-4E9E-A504-59292C074BB6</key>
 		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/blommegard/SBTickerView.git</string>
+	<string>https://github.com/ninexu/SBTickerView.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>39F67C8C-5F9A-4161-BF6F-8193763BED16</string>
+	<string>7B814774-1E58-4E9E-A504-59292C074BB6</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>39F67C8C-5F9A-4161-BF6F-8193763BED16</string>
+			<string>7B814774-1E58-4E9E-A504-59292C074BB6</string>
 			<key>IDESourceControlWCCName</key>
 			<string>SBTickerView</string>
 		</dict>

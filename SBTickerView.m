@@ -32,6 +32,7 @@
 #import "SBDoubleSidedLayer.h"
 #import "UIView+SBExtras.h"
 #import "SBGradientOverlayLayer.h"
+#import "UIImage+Ext.h"
 
 @interface SBTickerView ()
 @property (nonatomic, strong) SBGradientOverlayLayer *topFaceLayer;
@@ -146,6 +147,13 @@
     
     UIImage *frontImage = [_frontView image];
     UIImage *backImage = [_backView image];
+    
+    if (frontImage.size.width > _flipLayer.frame.size.width) {
+        frontImage = [frontImage TelescopicImageToSize:CGSizeMake(_flipLayer.frame.size.width*2, _flipLayer.frame.size.height*2)];
+    }
+    if (backImage.size.width > _flipLayer.frame.size.width) {
+        backImage = [backImage TelescopicImageToSize:CGSizeMake(_flipLayer.frame.size.width*2, _flipLayer.frame.size.height*2)];
+    }
     
     // Face layers
     // Top
